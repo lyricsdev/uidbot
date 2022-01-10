@@ -6,7 +6,7 @@ const TelegramBot = require('node-telegram-bot-api')
 
 var obj = JSON.parse(fs.readFileSync('something.json', 'utf8'));
 
-const bot = new TelegramBot('2025490177:AAFV3FdJqUbC-UqTwjyI5SVQfgJKNQOU8Lk', { polling: true })
+const bot = new TelegramBot('', { polling: true })
 
 function isNumeric(str) {
   if (typeof str != "string") return false // we only process strings!
